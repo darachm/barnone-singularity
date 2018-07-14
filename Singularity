@@ -19,6 +19,9 @@ MAINTAINER darachm
     # This one has an error, not sure why, testing on data without
     # this for now...
 
+    cp src/flamingo-4.1/src/common/build/libcommon-lib.so /usr/local/lib/python2.7/dist-packages/
+    cp src/flamingo-4.1/src/util/build/libutil-lib.so /usr/local/lib/python2.7/dist-packages/
+
 %test
 
     BarNone -h
